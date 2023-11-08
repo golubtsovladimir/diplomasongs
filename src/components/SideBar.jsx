@@ -106,7 +106,6 @@ export default function SideBar () {
 
             <span className="ml-4 text-sm font-semibold">Logout</span>
           </a>
-
         </nav>
     </aside>
       
