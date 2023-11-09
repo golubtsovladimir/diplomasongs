@@ -1,12 +1,19 @@
 import './App.css';
 import SideBar from './components/SideBar';
 import Header from './components/Header';
+import MainPage from './components/MainPage';
+import Chart from './components/Chart';
 
 function App() {
   return (
-    <div className='flex items-start'>
-    <SideBar/>
-    <Header/>
+    <div className='flex'>
+      <SideBar/>
+      <div className='w-full'>  
+      <Header/>
+      <MainPage/>
+      <Chart/>
+      </div>
+   
     </div>
   );
 }
