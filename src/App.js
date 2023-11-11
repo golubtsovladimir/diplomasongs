@@ -3,6 +3,7 @@ import SideBar from './components/SideBar';
 import Header from './components/Header';
 import MainPage from './components/MainPage';
 import Chart from './components/Chart';
+import Artist from './components/Artist';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header/>
       <MainPage/>
       <Chart/>
+      <Artist/>
       </div>
    
     </div>

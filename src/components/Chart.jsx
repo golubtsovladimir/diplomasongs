@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Chart () {
   return(
-    <section className="pt-[24px] pb-[48px] px-[32px] bg-white">
+    <section className="pt-[24px] pb-[48px] px-[32px]">
         <div className="flex justify-between items-end mt-[20px] ">
           <h2 className="text-2xl font-semibold hover:underline cursor-pointer"><a>Top Chart This Week</a></h2>
           <a href="" className="hover:underline text-[#7C74EE] font-semibold">View All</a>
@@ -13,7 +13,7 @@ export default function Chart () {
           <ul className="ml-[20px] px-3">
             <li className="flex group hover:bg-[#7C74EE] hover:bg-opacity-10 relative">
               <span className="text-2xl flex justify-center items-center font-semibold group-hover:hidden ">1</span>
-              <button className="h-10 w-10 opacity-0 group-hover:opacity-100 z-0 absolute">
+              <button className="h-10 w-10 hidden group-hover:block z-0 absolute">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="#7C74EE" viewBox="0 0 24 24" stroke-width="1.5" stroke="#7C74EE" class="w-7 h-7">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z" />
                 </svg>
