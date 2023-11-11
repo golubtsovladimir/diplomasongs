@@ -7,7 +7,7 @@ import Artist from './components/Artist';
 
 function App() {
   return (
-    <div className='flex'>
+    <div className='flex w-full overflow-hidden'>
       <SideBar/>
       <div className='w-full'>  
       <Header/>
@@ -15,10 +15,12 @@ function App() {
       <Chart/>
       <Artist/>
       </div>
-   
     </div>
   );
 }
 
 export default App;
 
+  /*
+      
+  */

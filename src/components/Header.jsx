@@ -13,7 +13,7 @@ export default function Header () {
       <div>
         <button className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-white my-7 mx-7 px-7 py-2 rounded-3xl">Premium</button>
       </div>
-        <span><p className=" my-7 mx-7 px-4 py-2 rounded-full bg-black">1</p></span>
+        <span><p className=" my-7 mx-7 px-4 py-2 rounded-full bg-black hidden sm:block">1</p></span>
     </header>
   );
 }

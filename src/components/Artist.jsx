@@ -7,29 +7,29 @@ export default function Artist () {
           <h2 className="text-2xl font-semibold hover:underline cursor-pointer"><a>Top Artist</a></h2>
           <a href="" className="hover:underline text-[#7C74EE] font-semibold">View All</a>
         </div>
-      <div className="flex">
+      <div className="grid grid-cols-main gap-10 mt-[30px]">
         <span>
-          <p className=" my-3 mx-7 px-[80px] py-[70px] rounded-full bg-black">1</p>
+          <img src="./images/190x190cc.webp" alt="" className="rounded-full m-auto"/>
           <h2 className="text-center">Макс Корж</h2>
         </span>
-        <span>
-          <p className=" my-3 mx-7 px-[80px] py-[70px] rounded-full bg-black">1</p>
+        <span className="hidden sm:block">
+          <img src="./images/190x190cc.webp" alt="" className="rounded-full m-auto"/>
           <h2 className="text-center">Макс Корж</h2>
         </span>
-        <span>
-          <p className=" my-3 mx-7 px-[80px] py-[70px] rounded-full bg-black">1</p>
+        <span className="hidden md:block">
+          <img src="./images/190x190cc.webp" alt="" className="rounded-full m-auto"/>
           <h2 className="text-center">Макс Корж</h2>
         </span>
-        <span>
-          <p className=" my-3 mx-7 px-[80px] py-[70px] rounded-full bg-black">1</p>
+        <span className="hidden xl:block">
+          <img src="./images/190x190cc.webp" alt="" className="rounded-full m-auto"/>
           <h2 className="text-center">Макс Корж</h2>
         </span>
-        <span>
-          <p className=" my-3 mx-7 px-[80px] py-[70px] rounded-full bg-black">1</p>
+        <span className="hidden 2xl:block">
+          <img src="./images/190x190cc.webp" alt="" className="rounded-full m-auto"/>
           <h2 className="text-center">Макс Корж</h2>
         </span>
-        <span>
-          <p className=" my-3 mx-7 px-[80px] py-[70px] rounded-full bg-black">1</p>
+        <span className="hidden 3xl:block">
+          <img src="./images/190x190cc.webp" alt="" className="rounded-full m-auto"/>
           <h2 className="text-center">Макс Корж</h2>
         </span>
       </div>
