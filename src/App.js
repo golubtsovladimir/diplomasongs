@@ -7,7 +7,7 @@ import Artist from './components/Artist';
 
 function App() {
   return (
-    <div className='flex w-full overflow-hidden'>
+    <div className='flex w-full'>
       <SideBar/>
       <div className='w-full'>  
       <Header/>

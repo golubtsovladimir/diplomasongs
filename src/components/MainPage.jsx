@@ -8,7 +8,7 @@ export default function MainPage () {
           <h2 className="text-2xl font-semibold hover:underline cursor-pointer"><a>Recommended</a></h2>
           <a href="" className="hover:underline text-[#7C74EE] font-semibold">View All</a>
         </div>
-        <div className="grid grid-cols-main gap-8">
+        <div className="grid sm:grid-cols-playlist-mobile md:grid-cols-playlist-tablet lg:grid-cols-playlist-laptop xl:grid-cols-playlist-desktop gap-8">
           <a href="" className="relative rounded-lg p-5 group/item hover:bg-[#eeeded] hover:bg-opacity-50">
             <div className="relative">
               <img src="./images/max_korzh_mp2.jpeg" alt="" className="rounded-3xl" />
@@ -56,11 +56,11 @@ export default function MainPage () {
               </button>
             </div>
             <div className="mt-5">
-              <h3 className="text-lg font-semibold">Ye</h3>
+              <h3 className="text-lg font-semibold line-clamp-2">Ye</h3>
               <p className="text-sm  mt-1 text-[#6B6B6B]">Kanye West</p>
             </div>
           </a>
-          <a href="" className="rounded-lg p-5 group/item hover:bg-[#eeeded] hover:bg-opacity-50 duration-200 hidden md:block">
+          <a href="" className="rounded-lg p-5 group/item hover:bg-[#eeeded] hover:bg-opacity-50 duration-200 hidden lg:block">
             <div className="relative">
               <img src="./images/kendrik_lamar_new_album.jpg" alt="" className="rounded-3xl" />
               <button className="h-10 w-10 bg-[#494949] rounded-full shadow-xl absolute right-2 bottom-2 flex justify-center items-center cursor-auto duration-200 bg-opacity-50 opacity-0 translate-y-3 group-hover/item:opacity-100 group-hover/item:translate-y-0 hover:scale-105">
@@ -70,11 +70,11 @@ export default function MainPage () {
               </button>
             </div>
             <div className="mt-5">
-              <h3 className="text-lg font-semibold">Mr. Morale & The Big Steppers</h3>
+              <h3 className="text-lg font-semibold line-clamp-2">Mr. Morale & The Big Steppers</h3>
               <p className="text-sm  mt-1 text-[#6B6B6B]">Kendrik Lamar</p>
             </div>
           </a>
-          <a href="" className="rounded-lg p-5 group/item hover:bg-[#eeeded] hover:bg-opacity-50 duration-200 hidden lg:block">
+          <a href="" className="rounded-lg p-5 group/item hover:bg-[#eeeded] hover:bg-opacity-50 duration-200 hidden xl:block">
             <div className="relative">
               <img src="./images/pharaoh_philarmonia.png" alt="" className="rounded-3xl" />
               <button className="h-10 w-10 bg-[#494949] rounded-full shadow-xl absolute right-2 bottom-2 flex justify-center items-center cursor-auto duration-200 bg-opacity-50 opacity-0 translate-y-3 group-hover/item:opacity-100 group-hover/item:translate-y-0 hover:scale-105">
@@ -84,11 +84,11 @@ export default function MainPage () {
               </button>
             </div>
             <div className="mt-5">
-              <h3 className="text-lg font-semibold">Philarmonia</h3>
+              <h3 className="text-lg font-semibold line-clamp-2">Philarmonia</h3>
               <p className="text-sm mt-1 text-[#6B6B6B]">Pharaoh</p>
             </div>
           </a>
-          <a href="" className="rounded-lg p-5 group/item hover:bg-[#eeeded] hover:bg-opacity-50 duration-200 hidden xl:block">
+          <a href="" className="rounded-lg p-5 group/item hover:bg-[#eeeded] hover:bg-opacity-50 duration-200 hidden 2xl:block">
             <div className="relative">
               <img src="./images/Skrip36.jpg" alt="" className="rounded-3xl" />
               <button className="h-10 w-10 bg-[#494949] rounded-full shadow-xl absolute right-2 bottom-2 flex justify-center items-center cursor-auto duration-200 bg-opacity-50 opacity-0 translate-y-3 group-hover/item:opacity-100 group-hover/item:translate-y-0 hover:scale-105">
@@ -98,11 +98,11 @@ export default function MainPage () {
               </button>
             </div>
             <div className="mt-5">
-              <h3 className="text-lg font-semibold">Улица 36</h3>
+              <h3 className="text-lg font-semibold line-clamp-2">Улица 36</h3>
               <p className="text-sm  mt-1 text-[#6B6B6B]">Скриптонит</p>
             </div>
           </a>
-          <a href="" className="relative rounded-lg p-5 group/item hover:bg-[#eeeded] hover:bg-opacity-50 duration-200 hidden 2xl:block">
+          <a href="" className="relative rounded-lg p-5 group/item hover:bg-[#eeeded] hover:bg-opacity-50 duration-200 hidden 3xl:block">
             <div className="relative">
               <img src="./images/max_korzh_mp2.jpeg" alt="" className="rounded-3xl" />
               <button className="h-10 w-10 bg-[#494949] rounded-full shadow-xl absolute right-2 bottom-2 flex justify-center items-center cursor-auto duration-200 bg-opacity-50 opacity-0 translate-y-3 group-hover/item:opacity-100 group-hover/item:translate-y-0 hover:scale-105">
@@ -112,7 +112,7 @@ export default function MainPage () {
               </button>
             </div>
             <div className="mt-5">
-              <h3 className="text-lg font-semibold line-clamp-1">Малый повзрослел.Часть 2</h3>
+              <h3 className="text-lg font-semibold line-clamp-2">Малый повзрослел.Часть 2</h3>
               <p className="text-sm  mt-1 text-[#6B6B6B]">Макс Корж</p>
               <ul className="bg-[#b9b8b8] text-sm p-1 rounded shadow-xl absolute top-9 left-9 cursor-default whitespace-nowrap divide-y divide-[black] z-10 hidden group-hover/item:block">
                 <li>
@@ -139,7 +139,7 @@ export default function MainPage () {
               </ul>
             </div>
           </a>
-          <a href="" className=" rounded-lg p-5 group/item hover:bg-[#eeeded] hover:bg-opacity-50 duration-200 hidden 3xl:block">
+          <a href="" className=" rounded-lg p-5 group/item hover:bg-[#eeeded] hover:bg-opacity-50 duration-200 hidden 4xl:block">
             <div className="relative">
               <img src="./images/Kanye_West_Ye.jpg" alt="" className="rounded-3xl" />
               <button className="h-10 w-10 bg-[#494949] rounded-full shadow-xl absolute right-2 bottom-2 flex justify-center items-center cursor-auto duration-200 bg-opacity-50 opacity-0 translate-y-3 group-hover/item:opacity-100 group-hover/item:translate-y-0 hover:scale-105">
@@ -153,7 +153,7 @@ export default function MainPage () {
               <p className="text-sm  mt-1 text-[#6B6B6B]">Kanye West</p>
             </div>
           </a>
-          <a href="" className="rounded-lg p-5 group/item hover:bg-[#eeeded] hover:bg-opacity-50 duration-200 hidden 4xl:block">
+          <a href="" className="rounded-lg p-5 group/item hover:bg-[#eeeded] hover:bg-opacity-50 duration-200 hidden 5xl:block">
             <div className="relative">
               <img src="./images/kendrik_lamar_new_album.jpg" alt="" className="rounded-3xl" />
               <button className="h-10 w-10 bg-[#494949] rounded-full shadow-xl absolute right-2 bottom-2 flex justify-center items-center cursor-auto duration-200 bg-opacity-50 opacity-0 translate-y-3 group-hover/item:opacity-100 group-hover/item:translate-y-0 hover:scale-105">
@@ -167,7 +167,7 @@ export default function MainPage () {
               <p className="text-sm  mt-1 text-[#6B6B6B]">Kendrik Lamar</p>
             </div>
           </a>
-          <a href="" className="rounded-lg p-5 group/item hover:bg-[#eeeded] hover:bg-opacity-50 duration-200 hidden 5xl:block">
+          <a href="" className="rounded-lg p-5 group/item hover:bg-[#eeeded] hover:bg-opacity-50 duration-200 hidden 6xl:block">
             <div className="relative">
               <img src="./images/pharaoh_philarmonia.png" alt="" className="rounded-3xl" />
               <button className="h-10 w-10 bg-[#494949] rounded-full shadow-xl absolute right-2 bottom-2 flex justify-center items-center cursor-auto duration-200 bg-opacity-50 opacity-0 translate-y-3 group-hover/item:opacity-100 group-hover/item:translate-y-0 hover:scale-105">

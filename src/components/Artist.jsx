@@ -7,7 +7,7 @@ export default function Artist () {
           <h2 className="text-2xl font-semibold hover:underline cursor-pointer"><a>Top Artist</a></h2>
           <a href="" className="hover:underline text-[#7C74EE] font-semibold">View All</a>
         </div>
-      <div className="grid grid-cols-main gap-10 mt-[30px]">
+      <div className="grid sm:grid-cols-playlist-mobile md:grid-cols-playlist-tablet lg:grid-cols-playlist-laptop xl:grid-cols-playlist-desktop gap-10 mt-[30px]">
         <span>
           <img src="./images/190x190cc.webp" alt="" className="rounded-full m-auto"/>
           <h2 className="text-center">Макс Корж</h2>
@@ -16,7 +16,7 @@ export default function Artist () {
           <img src="./images/190x190cc.webp" alt="" className="rounded-full m-auto"/>
           <h2 className="text-center">Макс Корж</h2>
         </span>
-        <span className="hidden md:block">
+        <span className="hidden lg:block">
           <img src="./images/190x190cc.webp" alt="" className="rounded-full m-auto"/>
           <h2 className="text-center">Макс Корж</h2>
         </span>
